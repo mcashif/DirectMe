@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showall"
+        android:text="Show Map with All Locations"
+        android:layout_alignParentBottom="true"
+        android:onClick="onBtnClickedList"/>
+
+    <ListView android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:id="@+id/results"
+        android:layout_alignParentTop="true" android:layout_above="@id/showall" />
+
+</RelativeLayout>
